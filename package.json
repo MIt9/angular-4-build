@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-tc": "ng test --code-coverage --reporters=teamcity,coverage-istanbul"
+    "test-tc": "ng test --single-run --code-coverage --reporters=teamcity,coverage-istanbul"
   },
   "private": true,
   "dependencies": {
